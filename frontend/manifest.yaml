@@ -35,7 +35,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    app: backend
+    app: frontend
     tier: ui
     project: expense
   ports:
